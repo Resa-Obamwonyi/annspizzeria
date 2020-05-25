@@ -1,0 +1,132 @@
+/*General CSS*/
+
+html, body{
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+li{
+    list-style-type: none;
+    color: black;
+}
+
+/*Header and Navigation CSS*/
+nav{
+    height: 80px;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-color: white;
+}
+#nav-bar li{
+    float: left;
+}
+#nav-bar img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.nav-left{
+    margin-left: 600px;
+}
+.nav-left li{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-right li{
+    padding: 20px 10px;
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.toggle a {
+    font-size: 20px;
+}
+.header-image{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/pizza-header.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+}
+.main-text{
+    text-align: right;
+    padding: 50px 100px;
+    color: white;
+}
+.main-text h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+.main-text h4{
+    font-size: 50px;
+    font-weight: 600;
+}
+.main-text button{
+    height: 80px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(223, 49, 18);
+}
+
+/*Menu CSS*/
+.menu-title{
+    padding-top: 50px;
+}
+.menu-title h1, p{
+    text-align: center;
+}
+.menu-tab img{
+    
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .main-text{
+        text-align: left;
+        padding: 50px 20px;
+        color:white;
+    }
+    .main-text h1{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .main-text h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .main-text button{
+        height: 40px;
+        width: 100px;
+        font-size: 12px;
+        border-radius: 5px;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(223, 49, 18);
+    }
+       
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+    body {
+        background: green;
+    }
+}
