@@ -95,7 +95,7 @@ nav{
     text-align: center;
 }
 .menu-tab img{
-    
+    width: 100%;
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -121,6 +121,9 @@ nav{
         font-weight: 600;
         color: white;
         background-color: rgb(223, 49, 18);
+    }
+    nav{
+        display:none;
     }
        
 }
