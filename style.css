@@ -57,6 +57,7 @@ nav{
     font-size: 50px;
     color:black;
     float: right;
+    display:none;
 }
 .header-image{
     width: 100%;
