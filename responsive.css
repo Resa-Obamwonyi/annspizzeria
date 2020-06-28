@@ -25,8 +25,15 @@
         color: white;
         background-color: rgb(223, 49, 18);
     }
-    nav{
-        display:none;
+    .nav-left li{
+        padding:20px 10px;
+    }
+    .toggle{
+        font-size: 25px;
+        color:black;
+        float: right;
+        display: inline-block;
+        margin: 0 0 0 80px;
     }
        
 }

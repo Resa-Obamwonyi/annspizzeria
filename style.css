@@ -37,16 +37,16 @@ nav{
     height: 20px;
     border-radius: 50%;
 }
-.nav-left{
+.nav-right{
     margin-left: 600px;
 }
-.nav-left li{
+.nav-right li{
     padding: 10px 30px;
     font-size: 15px;
     font-weight: 600;
 }
 
-.nav-right li{
+.nav-left li{
     padding:20px 30px;
 }
 .logo-text{
@@ -54,7 +54,7 @@ nav{
     font-weight: 600;
 }
 .toggle{
-    font-size: 100px;
+    font-size: 50px;
     color:black;
     float: right;
 }
@@ -120,9 +120,65 @@ nav{
     padding-bottom: 20px;
     font-size: 25px;
 }
+.card {
+  width: 100%;
+  background-color:white;
+  box-shadow: 0px 5px 20px #555;
+}
+  .card a {
+   color: #333;
+     text-decoration:none;
+  }
+  
+
+.card-image img:hover{
+       
+       width: 100%;
+       filter:grayscale(0);
+      
+  }
+
+.card-image {
+
+  height: 250px;
+  
+  position:relative;
+  overflow:hidden;
+}
+.card-image img {
+    width:100%;
+    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*filter: grayscale(1);*/
+  
+    transition-property: filter width;
+    transition-duration: .3s; 
+}
+
+.card-body {
+  text-align:center; 
+  padding: 15px 20px; 
+  box-sizing: border-box;
+}
+
+.card-date {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-title, .card-exceprt {
+   font-family: 'Playfair Display', serif;
+}
 
 /*Video CSS*/
-#video{
+#video h1{
+    text-align:center;
+}
+.pizza-video{
     width:80%;
-    height:50%;
+    margin: 0 10%;
+    height:100%;
 }
