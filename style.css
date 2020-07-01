@@ -152,10 +152,7 @@ nav{
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
-    /*filter: grayscale(1);*/
-  
+    transform: translate(-50%, -50%);  
     transition-property: filter width;
     transition-duration: .3s; 
 }
@@ -166,13 +163,6 @@ nav{
   box-sizing: border-box;
 }
 
-.card-date {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.card-title, .card-exceprt {
-   font-family: 'Playfair Display', serif;
-}
 
 /*Video CSS*/
 #video h1{
