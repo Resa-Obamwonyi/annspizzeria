@@ -24,6 +24,7 @@
         font-weight: 600;
         color: white;
         background-color: rgb(223, 49, 18);
+        border: hidden;
     }
     .nav-left li{
         padding:20px 10px;
