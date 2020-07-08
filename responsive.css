@@ -36,7 +36,26 @@
         display: inline-block;
         margin: 0 0 0 80px;
     }
-       
+    .menu-title h1{
+        font-size: 30px;
+        }
+    #video h1{
+        font-size: 30px;
+    }
+    .pizza-video{
+    width:80%;
+    margin: 0 10%;
+    height:300px;
+    border-radius: 10px;
+}
+    .contact-form input, textarea {
+        width: 80%;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px 0px 10px 20px;
+        margin: 10px;
+    }  
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
  @media only screen and (min-width: 768px) and (max-width: 959px) {

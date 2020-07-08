@@ -194,3 +194,21 @@ nav{
     height:500px;
     border-radius: 10px;
 }
+/*Contact Form Section*/
+#contact h1{
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+#form{
+    text-align: center;
+}
+
+.contact-form input,
+textarea {
+    width: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 0px 10px 20px;
+    margin: 20px;
+}
