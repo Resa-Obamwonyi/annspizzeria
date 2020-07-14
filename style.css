@@ -5,6 +5,7 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #FFFAFA;
 }
 
 a{
@@ -195,6 +196,14 @@ nav{
     border-radius: 10px;
 }
 /*Contact Form Section*/
+#contact{
+    border:1px solid black;
+    width: 40%;
+    margin: 5% 30%;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
 #contact h1{
     text-align: center;
     padding: 50px 0px 20px 0px;
@@ -210,5 +219,8 @@ textarea {
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px 0px 10px 20px;
-    margin: 20px;
+    margin: 10px !important;
+}
+.contact-btn{
+    margin-top: 20px;
 }
