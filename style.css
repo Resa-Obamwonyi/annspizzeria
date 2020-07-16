@@ -121,7 +121,7 @@ nav{
     padding-bottom: 25px;
 }
 .menu-title h1, p{
-    text-align: center;
+    text-align: center !important;
 }
 .menu{
     width: 25%;
