@@ -224,3 +224,22 @@ textarea {
 .contact-btn{
     margin-top: 20px;
 }
+
+/*Footer Section*/
+footer{
+    background-color: white;
+    height: 50%;
+}
+.footer-section{
+    width: 25%;
+    float: left;
+    padding: 100px 20px 100px 50px;
+}
+.footer-section h3,p {
+     text-align: left;
+}
+.footer-logo{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
