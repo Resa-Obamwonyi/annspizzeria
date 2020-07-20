@@ -120,9 +120,9 @@ nav{
     padding-top: 30px;
     padding-bottom: 25px;
 }
-.menu-title h1, p{
+.menu-title , p{
     text-align: center !important;
-}
+}h1
 .menu{
     width: 25%;
     float: left;
@@ -238,8 +238,18 @@ footer{
 .footer-section h3,p {
      text-align: left;
 }
+.footer-section li{
+    text-align: left;
+}
 .footer-logo{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
+    margin: 0px 10px 10px 0px;
+}
+.foot-logo-section h3{
+    display: inline-block;
+}
+.foot-socials li{
+    display: inline-block;
 }
