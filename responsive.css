@@ -48,6 +48,14 @@
     height:300px;
     border-radius: 10px;
 }
+    #contact{
+        width: 80%;
+        margin: 10%;
+    }
+    #contact h1{
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
     .contact-form input, textarea {
         width: 80%;
         display: inline-block;
@@ -56,10 +64,33 @@
         padding: 10px 0px 10px 20px;
         margin: 10px;
     }  
+    .contact-form textarea{
+        height: 180px;
+    }
+    footer{
+        background-color: white;
+        height: 120%;
+    }
+    .footer-section{
+        width: 100%;
+        padding: 30px 20px 20px 50px;
+    }
+    .footer-section h3,p {
+         text-align: left;
+    }
+    .footer-section li{
+        text-align: left;
+    }
+    .foot-logo-section h3{
+        display: inline-block;
+    }
+    .foot-socials li{
+        display: inline-block;
+    }
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
  @media only screen and (min-width: 768px) and (max-width: 959px) {
     body {
-        background: green;
+        background-color: green;
     }
 }
