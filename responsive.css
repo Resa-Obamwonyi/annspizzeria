@@ -1,3 +1,26 @@
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: green !important
+    }
+    .main-text{
+        text-align: right;
+        padding: 50px 30px;
+        color:white;
+    }
+    .main-text h1{
+        font-size: 80px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        padding-top:60px;
+    }
+    .main-text h4{
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+}
+
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
     .main-text{
@@ -86,11 +109,5 @@
     }
     .foot-socials li{
         display: inline-block;
-    }
-}
-/* Tablet Portrait size to standard 960 (devices and browsers) */
- @media only screen and (min-width: 768px) and (max-width: 959px) {
-    body {
-        background-color: green;
     }
 }
