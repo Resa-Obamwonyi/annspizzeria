@@ -1,7 +1,7 @@
 /* Tablet Portrait size to standard 960 (devices and browsers) */
  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    body {
-        background-color: green !important
+    .nav-links{
+        width: 50%;
     }
     .main-text{
         text-align: right;
@@ -23,6 +23,62 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top:0vh;
+        background-color:rgb(223, 49, 18);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links a{
+         color: #fff !important;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .nav-active{
+        transform: translateX(0%);
+    }
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px,6px);
+    }
+    .toggle .line2{
+        opacity: 0;
+    }
+
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px,-6px);
+    }
+
+
+    .menu-title h1{
+        font-size: 30px;
+        }
     .main-text{
         text-align: left;
         padding: 50px 20px;
@@ -49,19 +105,6 @@
         background-color: rgb(223, 49, 18);
         border: hidden;
     }
-    .nav-left li{
-        padding:20px 10px;
-    }
-    .toggle{
-        font-size: 25px;
-        color:black;
-        float: right;
-        display: inline-block;
-        margin: 0 0 0 80px;
-    }
-    .menu-title h1{
-        font-size: 30px;
-        }
     #video h1{
         font-size: 30px;
     }

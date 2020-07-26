@@ -1,7 +1,7 @@
 /*General CSS*/
 
 html, body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -35,43 +35,57 @@ button:hover{
     border:hidden;
 }
 /*Header and Navigation CSS*/
-nav{
-    height: 80px;
-    width:100%;
-    position: fixed;
-    top:0px;
-    left:0px;
-    background-color: white;
-}
-#nav-bar li{
-    float: left;
-}
-#nav-bar img{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-}
-.nav-right{
-    margin-left: 600px;
-}
-.nav-right li{
-    padding: 10px 30px;
-    font-size: 15px;
-    font-weight: 600;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.nav-left li{
-    padding:20px 30px;
+nav{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 13vh;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
 }
-.logo-text{
+.logo{
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    letter-spacing: 5px;
     font-size: 20px;
-    font-weight: 600;
 }
-.toggle{
-    font-size: 50px;
-    color:black;
-    float: right;
-    display:none;
+.logo-img{
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links a{
+    color:  rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
 }
 .header-image{
     width: 100%;
