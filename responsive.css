@@ -19,7 +19,7 @@
         font-weight: 600;
         padding-bottom: 30px;
     }
-    #contact{
+        #contact{
         width: 80%;
         margin: 10%;
     }
@@ -37,6 +37,9 @@
     }  
     .contact-form textarea{
         height: 180px;
+    }
+    .footer{
+        height: 60%;
     }
 }
 
@@ -159,7 +162,7 @@ body{
     }
     footer{
         background-color: white;
-        height: 120%;
+        height: 80%;
     }
     .footer-section{
         width: 100%;
