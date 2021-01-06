@@ -49,6 +49,7 @@ nav{
     background-color: #fff;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 .logo{
     color: rgb(0, 0, 0);
